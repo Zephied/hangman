@@ -1,4 +1,4 @@
-package github.com/Zephied/hangman
+package hangmanClassic
 
 import "os"
 

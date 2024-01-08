@@ -1,4 +1,4 @@
-package github.com/Zephied/hangman
+package hangmanClassic
 
 func WordSlice(wordlist []byte) ([]string, int) {
 	var list []string

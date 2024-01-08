@@ -1,4 +1,4 @@
-package github.com/Zephied/hangman
+package hangmanClassic
 
 func HideWord(word string) (string, int) {
 	var hiddenWord string
