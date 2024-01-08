@@ -1,4 +1,4 @@
-package hangman
+package github.com/Zephied/hangman
 
 func CheckLetter(data *Data, choice string) (string, bool) {
 	var i int

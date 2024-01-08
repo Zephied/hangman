@@ -1,4 +1,4 @@
-package hangman
+package github.com/Zephied/hangman
 
 type Before struct {
 	Wordlist []byte

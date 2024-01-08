@@ -1,4 +1,4 @@
-package hangman
+package github.com/Zephied/hangman
 
 func CheckUsedLetters(data *Data, choice string) bool {
 	var i int
