@@ -1,4 +1,4 @@
-package hangmanClassic
+package hangman
 
 func WordSlice(wordlist []byte) ([]string, int) {
 	var list []string

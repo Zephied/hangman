@@ -1,4 +1,4 @@
-package hangmanClassic
+package hangman
 
 func CheckRecurence(index int, data *Data, use string) string {
 	for j := 0; j < len(data.HiddenWord); j++ {

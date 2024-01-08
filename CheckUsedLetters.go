@@ -1,4 +1,4 @@
-package hangmanClassic
+package hangman
 
 func CheckUsedLetters(data *Data, choice string) bool {
 	var i int

@@ -1,4 +1,4 @@
-package hangmanClassic
+package hangman
 
 type Data struct {
 	Word       string

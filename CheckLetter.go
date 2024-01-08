@@ -1,4 +1,4 @@
-package hangmanClassic
+package hangman
 
 func CheckLetter(data *Data, choice string) (string, bool) {
 	var i int
