@@ -9,5 +9,5 @@ type Data struct {
 	S          string
 	Lost       bool
 	Win        bool
-	Eye        string
+	Diff        string
 }
