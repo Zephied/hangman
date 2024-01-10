@@ -1,10 +1,14 @@
 package hangman
 
+import "unicode/utf8"
+
 func CheckLetter(data *Data, choice string) (string, bool) {
 	var i int
 	var status bool = false
 
-	if len(choice) > 1 {
+	numChars := utf8.RuneCountInString(choice)
+	println(numChars)
+	if numChars > 1 {
 		if choice == data.Word {
 			data.HiddenWord = data.Word
 			status = true
